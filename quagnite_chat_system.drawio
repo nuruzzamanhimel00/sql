@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.9">
   <diagram name="Page-1" id="GDAdVoOiv3orpk9P2mUj">
-    <mxGraphModel dx="1268" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="2020" dy="510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -199,6 +199,378 @@
           <mxGeometry height="100" relative="1" width="100" as="geometry">
             <mxPoint x="-170" y="190" as="sourcePoint" />
             <mxPoint x="-70" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-54" parent="1" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" value="messages" vertex="1">
+          <mxGeometry height="270" width="210" x="-380" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-55" parent="PHNiS8CvTehlsWCRM-qX-54" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" value="" vertex="1">
+          <mxGeometry height="30" width="210" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-56" parent="PHNiS8CvTehlsWCRM-qX-55" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" value="PK" vertex="1">
+          <mxGeometry height="30" width="30" as="geometry">
+            <mxRectangle height="30" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-57" parent="PHNiS8CvTehlsWCRM-qX-55" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" value="id" vertex="1">
+          <mxGeometry height="30" width="180" x="30" as="geometry">
+            <mxRectangle height="30" width="180" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-58" parent="PHNiS8CvTehlsWCRM-qX-54" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" value="" vertex="1">
+          <mxGeometry height="30" width="210" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-59" parent="PHNiS8CvTehlsWCRM-qX-58" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="30" width="30" as="geometry">
+            <mxRectangle height="30" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-60" parent="PHNiS8CvTehlsWCRM-qX-58" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" value="conversation_id" vertex="1">
+          <mxGeometry height="30" width="180" x="30" as="geometry">
+            <mxRectangle height="30" width="180" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-61" parent="PHNiS8CvTehlsWCRM-qX-54" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" value="" vertex="1">
+          <mxGeometry height="30" width="210" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-62" parent="PHNiS8CvTehlsWCRM-qX-61" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="30" width="30" as="geometry">
+            <mxRectangle height="30" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-63" parent="PHNiS8CvTehlsWCRM-qX-61" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" value="user_id" vertex="1">
+          <mxGeometry height="30" width="180" x="30" as="geometry">
+            <mxRectangle height="30" width="180" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-64" parent="PHNiS8CvTehlsWCRM-qX-54" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" value="" vertex="1">
+          <mxGeometry height="30" width="210" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-65" parent="PHNiS8CvTehlsWCRM-qX-64" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="30" width="30" as="geometry">
+            <mxRectangle height="30" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-66" parent="PHNiS8CvTehlsWCRM-qX-64" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" value="content" vertex="1">
+          <mxGeometry height="30" width="180" x="30" as="geometry">
+            <mxRectangle height="30" width="180" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-67" parent="PHNiS8CvTehlsWCRM-qX-54" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" value="" vertex="1">
+          <mxGeometry height="30" width="210" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-68" parent="PHNiS8CvTehlsWCRM-qX-67" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="30" width="30" as="geometry">
+            <mxRectangle height="30" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-69" parent="PHNiS8CvTehlsWCRM-qX-67" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" value="type -&amp;nbsp;&#39;text&#39;, &#39;image&#39;, &#39;video&#39;, &#39;audio&#39;, &#39;file&#39;, &#39;link&#39;" vertex="1">
+          <mxGeometry height="30" width="180" x="30" as="geometry">
+            <mxRectangle height="30" width="180" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-70" parent="PHNiS8CvTehlsWCRM-qX-54" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" value="" vertex="1">
+          <mxGeometry height="30" width="210" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-71" parent="PHNiS8CvTehlsWCRM-qX-70" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="30" width="30" as="geometry">
+            <mxRectangle height="30" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-72" parent="PHNiS8CvTehlsWCRM-qX-70" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" value="reply_to_id" vertex="1">
+          <mxGeometry height="30" width="180" x="30" as="geometry">
+            <mxRectangle height="30" width="180" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-74" parent="PHNiS8CvTehlsWCRM-qX-54" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" value="" vertex="1">
+          <mxGeometry height="30" width="210" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-75" parent="PHNiS8CvTehlsWCRM-qX-74" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="30" width="30" as="geometry">
+            <mxRectangle height="30" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-76" parent="PHNiS8CvTehlsWCRM-qX-74" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" value="is_edited" vertex="1">
+          <mxGeometry height="30" width="180" x="30" as="geometry">
+            <mxRectangle height="30" width="180" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-78" parent="PHNiS8CvTehlsWCRM-qX-54" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" value="" vertex="1">
+          <mxGeometry height="30" width="210" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-79" parent="PHNiS8CvTehlsWCRM-qX-78" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="30" width="30" as="geometry">
+            <mxRectangle height="30" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-80" parent="PHNiS8CvTehlsWCRM-qX-78" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" value="edited_at" vertex="1">
+          <mxGeometry height="30" width="180" x="30" as="geometry">
+            <mxRectangle height="30" width="180" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-73" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="$table-&amp;gt;foreignId(&#39;reply_to_id&#39;)-&amp;gt;nullable()-&amp;gt;constrained(&#39;messages&#39;)-&amp;gt;onDelete(&#39;set null&#39;);" vertex="1">
+          <mxGeometry height="40" width="270" x="-690" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-77" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" target="PHNiS8CvTehlsWCRM-qX-70" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-420" y="620" as="sourcePoint" />
+            <mxPoint x="-370" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-81" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;$table-&amp;gt;timestamps();&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;$table-&amp;gt;softDeletes();&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;$table-&amp;gt;index([&#39;conversation_id&#39;, &#39;created_at&#39;]);&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="310" x="-420" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-82" edge="1" parent="1" source="P_aUfwOsET2o9cJUJ2R1-2" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="PHNiS8CvTehlsWCRM-qX-58" value="">
+          <mxGeometry height="100" relative="1" width="100" as="geometry">
+            <Array as="points">
+              <mxPoint x="-440" y="340" />
+            </Array>
+            <mxPoint x="-370" y="380" as="sourcePoint" />
+            <mxPoint x="-270" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-83" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&amp;nbsp; &amp;nbsp;$table-&amp;gt;foreignId(&#39;created_by&#39;)-&amp;gt;nullable()-&amp;gt;constrained(&#39;users&#39;)-&amp;gt;onDelete(&#39;set null&#39;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; $table-&amp;gt;timestamps();&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; $table-&amp;gt;softDeletes();&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="360" x="-470" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-84" parent="1" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" value="message_attachments" vertex="1">
+          <mxGeometry height="260" width="210" x="-10" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-85" parent="PHNiS8CvTehlsWCRM-qX-84" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" value="" vertex="1">
+          <mxGeometry height="30" width="210" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-86" parent="PHNiS8CvTehlsWCRM-qX-85" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" value="PK" vertex="1">
+          <mxGeometry height="30" width="30" as="geometry">
+            <mxRectangle height="30" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-87" parent="PHNiS8CvTehlsWCRM-qX-85" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" value="id" vertex="1">
+          <mxGeometry height="30" width="180" x="30" as="geometry">
+            <mxRectangle height="30" width="180" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-88" parent="PHNiS8CvTehlsWCRM-qX-84" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" value="" vertex="1">
+          <mxGeometry height="30" width="210" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-89" parent="PHNiS8CvTehlsWCRM-qX-88" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="30" width="30" as="geometry">
+            <mxRectangle height="30" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-90" parent="PHNiS8CvTehlsWCRM-qX-88" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" value="message_id" vertex="1">
+          <mxGeometry height="30" width="180" x="30" as="geometry">
+            <mxRectangle height="30" width="180" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-91" parent="PHNiS8CvTehlsWCRM-qX-84" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" value="" vertex="1">
+          <mxGeometry height="20" width="210" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-92" parent="PHNiS8CvTehlsWCRM-qX-91" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="20" width="30" as="geometry">
+            <mxRectangle height="20" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-93" parent="PHNiS8CvTehlsWCRM-qX-91" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;strokeColor=default;" value="file_name" vertex="1">
+          <mxGeometry height="20" width="180" x="30" as="geometry">
+            <mxRectangle height="20" width="180" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-94" parent="PHNiS8CvTehlsWCRM-qX-84" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" value="" vertex="1">
+          <mxGeometry height="30" width="210" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-95" parent="PHNiS8CvTehlsWCRM-qX-94" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="30" width="30" as="geometry">
+            <mxRectangle height="30" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-96" parent="PHNiS8CvTehlsWCRM-qX-94" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" value="file_path" vertex="1">
+          <mxGeometry height="30" width="180" x="30" as="geometry">
+            <mxRectangle height="30" width="180" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-97" parent="PHNiS8CvTehlsWCRM-qX-84" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" value="" vertex="1">
+          <mxGeometry height="30" width="210" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-98" parent="PHNiS8CvTehlsWCRM-qX-97" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="30" width="30" as="geometry">
+            <mxRectangle height="30" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-99" parent="PHNiS8CvTehlsWCRM-qX-97" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" value="file_type" vertex="1">
+          <mxGeometry height="30" width="180" x="30" as="geometry">
+            <mxRectangle height="30" width="180" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-100" parent="PHNiS8CvTehlsWCRM-qX-84" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" value="" vertex="1">
+          <mxGeometry height="30" width="210" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-101" parent="PHNiS8CvTehlsWCRM-qX-100" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="30" width="30" as="geometry">
+            <mxRectangle height="30" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-102" parent="PHNiS8CvTehlsWCRM-qX-100" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" value="file_size" vertex="1">
+          <mxGeometry height="30" width="180" x="30" as="geometry">
+            <mxRectangle height="30" width="180" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-103" parent="PHNiS8CvTehlsWCRM-qX-84" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" value="" vertex="1">
+          <mxGeometry height="30" width="210" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-104" parent="PHNiS8CvTehlsWCRM-qX-103" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="30" width="30" as="geometry">
+            <mxRectangle height="30" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-105" parent="PHNiS8CvTehlsWCRM-qX-103" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" value="mime_type" vertex="1">
+          <mxGeometry height="30" width="180" x="30" as="geometry">
+            <mxRectangle height="30" width="180" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-106" parent="PHNiS8CvTehlsWCRM-qX-84" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" value="" vertex="1">
+          <mxGeometry height="30" width="210" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-107" parent="PHNiS8CvTehlsWCRM-qX-106" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="30" width="30" as="geometry">
+            <mxRectangle height="30" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-108" parent="PHNiS8CvTehlsWCRM-qX-106" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" value="metadata" vertex="1">
+          <mxGeometry height="30" width="180" x="30" as="geometry">
+            <mxRectangle height="30" width="180" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-110" edge="1" parent="1" source="PHNiS8CvTehlsWCRM-qX-55" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;rounded=0;exitX=0.978;exitY=0.472;exitDx=0;exitDy=0;exitPerimeter=0;" target="PHNiS8CvTehlsWCRM-qX-88" value="">
+          <mxGeometry height="100" relative="1" width="100" as="geometry">
+            <mxPoint x="-80" y="540" as="sourcePoint" />
+            <mxPoint x="20" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-111" parent="1" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" value="message_reactions" vertex="1">
+          <mxGeometry height="150" width="180" x="-10" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-112" parent="PHNiS8CvTehlsWCRM-qX-111" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" value="" vertex="1">
+          <mxGeometry height="30" width="180" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-113" parent="PHNiS8CvTehlsWCRM-qX-112" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" value="PK" vertex="1">
+          <mxGeometry height="30" width="30" as="geometry">
+            <mxRectangle height="30" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-114" parent="PHNiS8CvTehlsWCRM-qX-112" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" value="id" vertex="1">
+          <mxGeometry height="30" width="150" x="30" as="geometry">
+            <mxRectangle height="30" width="150" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-115" parent="PHNiS8CvTehlsWCRM-qX-111" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" value="" vertex="1">
+          <mxGeometry height="30" width="180" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-116" parent="PHNiS8CvTehlsWCRM-qX-115" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="30" width="30" as="geometry">
+            <mxRectangle height="30" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-117" parent="PHNiS8CvTehlsWCRM-qX-115" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" value="message_id" vertex="1">
+          <mxGeometry height="30" width="150" x="30" as="geometry">
+            <mxRectangle height="30" width="150" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-118" parent="PHNiS8CvTehlsWCRM-qX-111" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" value="" vertex="1">
+          <mxGeometry height="30" width="180" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-119" parent="PHNiS8CvTehlsWCRM-qX-118" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="30" width="30" as="geometry">
+            <mxRectangle height="30" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-120" parent="PHNiS8CvTehlsWCRM-qX-118" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" value="user_id" vertex="1">
+          <mxGeometry height="30" width="150" x="30" as="geometry">
+            <mxRectangle height="30" width="150" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-121" parent="PHNiS8CvTehlsWCRM-qX-111" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" value="" vertex="1">
+          <mxGeometry height="30" width="180" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-122" parent="PHNiS8CvTehlsWCRM-qX-121" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="30" width="30" as="geometry">
+            <mxRectangle height="30" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-123" parent="PHNiS8CvTehlsWCRM-qX-121" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" value="emoji" vertex="1">
+          <mxGeometry height="30" width="150" x="30" as="geometry">
+            <mxRectangle height="30" width="150" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-127" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;$table-&amp;gt;timestamps();&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;$table-&amp;gt;unique([&#39;message_id&#39;, &#39;user_id&#39;, &#39;emoji&#39;]);&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="270" x="-20" y="910" as="geometry" />
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-128" edge="1" parent="1" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;flowAnimation=0;shadow=1;" target="PHNiS8CvTehlsWCRM-qX-115" value="">
+          <mxGeometry height="100" relative="1" width="100" as="geometry">
+            <mxPoint x="-170" y="460" as="sourcePoint" />
+            <mxPoint x="20" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-129" parent="1" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" value="message_reads" vertex="1">
+          <mxGeometry height="150" width="180" x="-690" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-130" parent="PHNiS8CvTehlsWCRM-qX-129" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" value="" vertex="1">
+          <mxGeometry height="30" width="180" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-131" parent="PHNiS8CvTehlsWCRM-qX-130" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" value="PK" vertex="1">
+          <mxGeometry height="30" width="30" as="geometry">
+            <mxRectangle height="30" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-132" parent="PHNiS8CvTehlsWCRM-qX-130" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" value="id" vertex="1">
+          <mxGeometry height="30" width="150" x="30" as="geometry">
+            <mxRectangle height="30" width="150" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-133" parent="PHNiS8CvTehlsWCRM-qX-129" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" value="" vertex="1">
+          <mxGeometry height="30" width="180" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-134" parent="PHNiS8CvTehlsWCRM-qX-133" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="30" width="30" as="geometry">
+            <mxRectangle height="30" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-135" parent="PHNiS8CvTehlsWCRM-qX-133" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" value="message_id" vertex="1">
+          <mxGeometry height="30" width="150" x="30" as="geometry">
+            <mxRectangle height="30" width="150" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-136" parent="PHNiS8CvTehlsWCRM-qX-129" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" value="" vertex="1">
+          <mxGeometry height="30" width="180" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-137" parent="PHNiS8CvTehlsWCRM-qX-136" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="30" width="30" as="geometry">
+            <mxRectangle height="30" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-138" parent="PHNiS8CvTehlsWCRM-qX-136" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" value="user_id" vertex="1">
+          <mxGeometry height="30" width="150" x="30" as="geometry">
+            <mxRectangle height="30" width="150" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-139" parent="PHNiS8CvTehlsWCRM-qX-129" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" value="" vertex="1">
+          <mxGeometry height="30" width="180" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-140" parent="PHNiS8CvTehlsWCRM-qX-139" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="30" width="30" as="geometry">
+            <mxRectangle height="30" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-141" parent="PHNiS8CvTehlsWCRM-qX-139" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" value="read_at" vertex="1">
+          <mxGeometry height="30" width="150" x="30" as="geometry">
+            <mxRectangle height="30" width="150" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-142" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="$table-&amp;gt;unique([&#39;message_id&#39;, &#39;user_id&#39;]);" vertex="1">
+          <mxGeometry height="30" width="185" x="-700" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="PHNiS8CvTehlsWCRM-qX-143" edge="1" parent="1" source="PHNiS8CvTehlsWCRM-qX-55" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;exitX=0.025;exitY=0.694;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="PHNiS8CvTehlsWCRM-qX-133" value="">
+          <mxGeometry height="100" relative="1" width="100" as="geometry">
+            <mxPoint x="-420" y="640" as="sourcePoint" />
+            <mxPoint x="-320" y="540" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
